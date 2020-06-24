@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "946925762046",
+    "firebase_url": "https://alarmi-50994.firebaseio.com",
+    "project_id": "alarmi-50994",
+    "storage_bucket": "alarmi-50994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946925762046:android:aadc86cf647aa881947caf",
+        "android_client_info": {
+          "package_name": "com.alarmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946925762046-ugr5094gsbfe614vihrmvb4fi94ce5qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCGTDzmyN-FeCoawLlv1Wa3P8UvGK_lkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946925762046-ugr5094gsbfe614vihrmvb4fi94ce5qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
