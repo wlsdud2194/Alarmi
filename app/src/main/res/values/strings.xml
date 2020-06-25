@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Alarmi</string>
+    <string name="default_notification_channel_id">lecture.alarm</string>
 </resources>
