@@ -11,7 +11,7 @@ public abstract class AlarmDatabase extends RoomDatabase {
     public abstract AlarmDAO alarmDAO();
 
     private static AlarmDatabase instance;
-    public AlarmDatabase getInstance(Context context) {
+    public static AlarmDatabase getInstance(Context context) {
         if (instance == null) {
             instance = Room.databaseBuilder(
                     context,

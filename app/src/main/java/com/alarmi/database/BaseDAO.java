@@ -11,14 +11,14 @@ import java.util.List;
 @Dao
 public interface BaseDAO<ET> {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    ET insert(ET entity);
+    Long insert(ET entity);
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    ET insert(List<ET> arr);
+    List<Long> insert(List<ET> arr);
 
     @Update
-    ET update(ET entity);
+    int update(ET entity);
 
     @Delete
-    boolean delete(ET entity);
+    int delete(ET entity);
 }

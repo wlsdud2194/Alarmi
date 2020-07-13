@@ -1,0 +1,4 @@
+INSERT INTO (time, actived, memo, term) VALUES ("02:11", true, "첫 알람", "월, 화, 수");
+INSERT INTO (time, actived, memo, term) VALUES ("12:11", true, "두 알람", "일");
+INSERT INTO (time, actived, memo, term) VALUES ("15:11", true, "세 알람", "화, 수, 금, 토");
+INSERT INTO (time, actived, memo, term) VALUES ("23:11", true, "네 알람", "화, 수");
