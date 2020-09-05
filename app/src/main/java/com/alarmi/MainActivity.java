@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements AlarmAdapter.OnIt
 
     class LoadTask extends AsyncTask<Void, Void, List<Alarm>> {
         @Override
-        protected List<Alarm> doInBackground(Void... voids) {
+        protected List<Alarm> doInBackground(Void ...voids) {
             return db.alarmDAO().findAll();
         }
 
